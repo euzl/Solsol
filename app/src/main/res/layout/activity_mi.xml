@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textColor="#D94E4E"
+                android:text="헷갈리기 쉬운 OPIC 단어\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="\nactive : 활동적인\nactual : 실제의\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="\nadapt ; 적합[적응]시키다, 적용[순응]시키다, 고치다, 개작하다\nadopt : v.양자로 삼다, 채용[채택]하다\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="\naffect : v. 영향을 주다\n
+effect : n. 결과, 효과, 영향 v. ～을 초래하다\n
+afford : --할 여유가 있는\n
+effort : 노력\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="\nalive : 살아있는(서술적)\n
+The bird is still alive.\n
+live : 생생한(한정적),생동하는 ,살아있는\n
+a live bait \n
+the live sounds of a forest\n
+숲의 웅성거림\n
+lively :힘찬, 활기찬, 발발한\n
+a lively boy.발랄한 소년 \n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="\naltar ; 제단\n
+alter ; 변경하다, 개조하다\n"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="\nalmost:‘거의’ 라는 뜻으로 바로 뒤의 형용사나 동사를 수식하는 부사\n
+mostly :'주로, 대개‘라는 뜻으로 문장 전체의 의미와 관련이 있는 부사\n
+most : '대부분의‘라는 형용사로 명사 수식.\n"/>
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

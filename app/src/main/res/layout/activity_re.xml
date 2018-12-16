@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReActivity">
+
+
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:src="@drawable/andrew" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="앤드류 웨일 박사\n하버드 의대 출신\n현재 아리조나 대학의\n통합의학 센터의 책임자" />
+        </LinearLayout>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#D94E4E"
+        android:text="4-7-8 호흡법\n"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="1) 혀 끝을 위쪽 앞니 뒤쪽에 가볍게 댄다.\n2) 입을 다문 상태로 코로 숨을 들이시면서 넷을 센다.\n3) 마음 속으로 일곱을 세는 동안 숨을 참는다.\n4)여덟을 세는 동안 '휴'하는 소리를 내며 입으로 숨을 내쉰다.\n   이 과정을 4번 반복. (하루에 최소 2회 이상 권장)\n  4:7:8의 비율을 맞추는 것이 중요하다."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="\n * 불면증 뿐만 아니라 일상의 스트레스 완화에도 좋다."/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
