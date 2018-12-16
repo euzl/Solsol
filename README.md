@@ -15,11 +15,17 @@
 
 > **Activity 목록**
 > MainActivity : 시작 페이지
+
 > MenuActivity : 메뉴 목록
+
 > DoActivity : 잠이 오는 소리
+
 > ReActivity : 4-7-8 호흡법
+
 > MiActivity : 영어 단어 외우기
+
 > paActivity : 잘 거라고 세뇌하기
+
 > SolActivity :  잠이 오는 움짤
 
 ### 수면 방법 추가
