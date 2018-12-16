@@ -14,6 +14,7 @@
 ## 발전방향
 
 > **Activity 목록**
+
 > MainActivity : 시작 페이지
 
 > MenuActivity : 메뉴 목록
