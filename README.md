@@ -13,7 +13,7 @@
 
 ## 발전방향
 
-> **Activity 목록**
+###Activity 목록
 
 > MainActivity : 시작 페이지
 
